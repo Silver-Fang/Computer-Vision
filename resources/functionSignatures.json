@@ -1,0 +1,24 @@
+{
+	"ComputerVision.TextMask":{
+		"inputs":[
+			{
+				"name":"Text",
+				"kind":"required",
+				"type":[["string","scalar"],["char","row"]],
+				"purpose":"要渲染的文本"
+			},
+			{
+				"name":"FontSize",
+				"kind":"required",
+				"type":"positive",
+				"purpose":"字体大小"
+			},
+			{
+				"name":"Font",
+				"kind":"ordered",
+				"type":[["string","scalar"],["char","row"]],
+				"purpose":"要渲染的字体"
+			}
+		]
+	}
+}
