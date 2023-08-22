@@ -12,7 +12,7 @@ import ComputerVision.*
 
 %将文本渲染为二值图像
 function Mask = TextMask(Text,FontSize,Font)</param.description>
-    <param.screenshot>${PROJECT_ROOT}\+ComputerVision\TextMask.png</param.screenshot>
+    <param.screenshot>${PROJECT_ROOT}\工具箱图像.jpg</param.screenshot>
     <param.version>1.0.0</param.version>
     <param.output>${PROJECT_ROOT}\计算机视觉.mltbx</param.output>
     <param.products.name>
@@ -22,7 +22,7 @@ function Mask = TextMask(Text,FontSize,Font)</param.description>
       <item>96</item>
     </param.products.id>
     <param.products.version>
-      <item>10.3</item>
+      <item>23.2</item>
     </param.products.version>
     <param.platforms />
     <param.guid>284ff020-3728-4461-b14d-372da52a6944</param.guid>
@@ -109,6 +109,7 @@ resources/project</param.exclude.filters>
       <file>${PROJECT_ROOT}\+ComputerVision</file>
       <file>${PROJECT_ROOT}\README.md</file>
       <file>${PROJECT_ROOT}\resources</file>
+      <file>${PROJECT_ROOT}\工具箱图像.jpg</file>
     </fileset.rootfiles>
     <fileset.depfun.included />
     <fileset.depfun.excluded />
@@ -118,15 +119,8 @@ resources/project</param.exclude.filters>
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>C:\Program Files\MATLAB\R2022b</root>
-      <toolboxes>
-        <toolbox name="matlabcoder" />
-      </toolboxes>
-      <toolbox>
-        <matlabcoder>
-          <enabled>true</enabled>
-        </matlabcoder>
-      </toolbox>
+      <root>C:\Program Files\MATLAB\R2023b</root>
+      <toolboxes />
     </matlab>
     <platform>
       <unix>false</unix>
