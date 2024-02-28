@@ -13,7 +13,7 @@ import ComputerVision.*
 %将文本渲染为二值图像
 function Mask = TextMask(Text,FontSize,Font)</param.description>
     <param.screenshot>${PROJECT_ROOT}\工具箱图像.jpg</param.screenshot>
-    <param.version>1.0.0</param.version>
+    <param.version>1.1.0</param.version>
     <param.output>${PROJECT_ROOT}\计算机视觉.mltbx</param.output>
     <param.products.name>
       <item>Computer Vision Toolbox</item>
@@ -22,7 +22,7 @@ function Mask = TextMask(Text,FontSize,Font)</param.description>
       <item>96</item>
     </param.products.id>
     <param.products.version>
-      <item>23.2</item>
+      <item>24.1</item>
     </param.products.version>
     <param.platforms />
     <param.guid>284ff020-3728-4461-b14d-372da52a6944</param.guid>
@@ -119,7 +119,7 @@ resources/project</param.exclude.filters>
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>C:\Program Files\MATLAB\R2023b</root>
+      <root>C:\Program Files\MATLAB\R2024a</root>
       <toolboxes />
     </matlab>
     <platform>
