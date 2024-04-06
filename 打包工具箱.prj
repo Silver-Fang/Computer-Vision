@@ -13,7 +13,7 @@ import ComputerVision.*
 %将文本渲染为二值图像
 function Mask = TextMask(Text,FontSize,Font)</param.description>
     <param.screenshot>${PROJECT_ROOT}\工具箱图像.jpg</param.screenshot>
-    <param.version>1.1.0</param.version>
+    <param.version>1.1.1</param.version>
     <param.output>${PROJECT_ROOT}\计算机视觉.mltbx</param.output>
     <param.products.name>
       <item>Computer Vision Toolbox</item>
